@@ -2,7 +2,7 @@ MAINTAINER=mcgr0g
 ASSEMBLY_NAME=zapret-docker
 IMG_NAME=$(MAINTAINER)/$(ASSEMBLY_NAME)
 # VERSIONS ---------------------------------------------------------------------
-ASSEMBLY_VER=0.0.1
+ASSEMBLY_VER=0.0.2
 ASSEMBLY_DATE:=$(shell date '+%Y-%m-%d')
 
 
