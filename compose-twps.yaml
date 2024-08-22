@@ -2,9 +2,7 @@ name: zapret
 services:
   tpws:
     build: .
+    container_name: zapret-docker
     command: ["--port=1080", "--socks", "--tlsrec=sni", "--disorder"]
     ports:
-      - target: 1080
-        host_ip: 127.0.0.1
-        published: ${PORT}
-        protocol: tcp
+      - 10080:1080/tcp
